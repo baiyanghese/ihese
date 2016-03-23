@@ -26,6 +26,7 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta name="author" content="JackFan,baiyanghese@gmail.com" />
+        <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
         <link rel="stylesheet" href="/wp-content/themes/freefire/css/home.css" />
     </head>
     <body>
@@ -43,7 +44,7 @@
         </div>
       </div>
       <div class="footer">
-        COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.<br />THEME DESIGN BY Jack Fan 荷色小站旗下网站，盗版必究
+        COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="">粤ICP备13030603号</a><br />THEME DESIGN BY Jack Fan 荷色小站旗下网站，盗版必究
       </div>
       <script type="text/javascript" src="/wp-content/themes/freefire/js/zepto.min.js"></script>
       <script type="text/javascript" src="/wp-content/themes/freefire/js/home.js"></script>
