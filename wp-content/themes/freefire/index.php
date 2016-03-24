@@ -33,7 +33,7 @@
     <canvas width="100%" height="100%" id="blogbg">
     你的浏览器不支持哦～
     </canvas>
-    <div class="blognav">
+    <div class="blognav arriveup">
       <a href="/" class="logo"></a>
       <h2>为享受左脑艺术的乐趣而生</h2>
       <div class="menu">
@@ -43,7 +43,7 @@
         <a href="">社区</a>
       </div>
     </div>
-    <div class="contactme">
+    <div class="contactme arriveup-long">
       <ul>
         <li>
           <a href="http://github.com/baiyanghese" class="atips" data-tips="GitHub">

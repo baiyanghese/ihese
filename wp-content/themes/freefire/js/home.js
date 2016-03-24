@@ -1,6 +1,7 @@
 var canvas = document.getElementById("blogbg"),
 context = canvas.getContext('2d'),
 BallArray = [];
+var _mode = 1; // 1 白天，0 黑夜
 //
 function Resizewin() {
     $(window).resize(function() {
@@ -91,13 +92,18 @@ Dot.prototype = {
 Resizewin();
 Init();
 
+// 提示
 function Showtips() {
     var _a = $(".atips");
     _a.bind('mouseenter', function() {
         _a.parent("li").find(".tip").remove();
         var _t = $(this),
         text = _t.data("tips");
-        _t.parent("li").append('<div class="tip animated"><div class="tip-arrow"></div><div class="tip-inner">'+text+'</div></div>');
+        if (!_mode) {
+            _t.parent("li").append('<div class="tip animated night"><div class="tip-arrow"></div><div class="tip-inner">'+text+'</div></div>');
+        } else {
+            _t.parent("li").append('<div class="tip animated"><div class="tip-arrow"></div><div class="tip-inner">'+text+'</div></div>');
+        }
         _t.parent("li").find(".tip").addClass('fadeInDown');
         return false;
     });
@@ -109,3 +115,16 @@ function Showtips() {
 }
 
 Showtips();
+
+// 白天黑夜切换
+function Modeswitch() {
+    var datetime = new Date(),
+    _h = datetime.getHours();
+    if (_h >= 19 || _h < 7) {
+        _mode = 0;
+    }
+    if (!_mode) {
+        $("body,.blognav,.blognav h2,.menu,.footer").addClass('night');
+    }
+}
+Modeswitch();

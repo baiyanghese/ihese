@@ -11,6 +11,9 @@ body {
   overflow: hidden;
   background: #fff;
 }
+body.night {
+  background: #000000;
+}
 .blognav {
   position: absolute;
   left: 50%;
@@ -21,11 +24,21 @@ body {
   /* border: 1px solid #eee; */
   background: rgba(255, 255, 255, 0.5);
   z-index: 999;
+}
+.blognav.night {
+  background: transparent;
+}
+.arriveup,
+.arriveup-long {
   -webkit-transform: translate3d(0, 500px, 0);
   transform: translate3d(0, 500px, 0);
   -webkit-animation: arrive 0.3s ease-in-out 0.9s forwards;
   animation: arrive 0.3s ease-in-out 0.9s forwards;
   opacity: 0;
+}
+.arriveup-long {
+  -webkit-animation: arrive 0.9s ease-in-out 1.5s forwards;
+  animation: arrive 0.9s ease-in-out 1.5s forwards;
 }
 @-webkit-keyframes arrive {
   0% {
@@ -65,6 +78,9 @@ body {
   margin: 20px auto;
   font-weight: 400;
 }
+.blognav h2.night {
+  color: #bbbbbb;
+}
 .menu {
   width: 82px;
   height: auto;
@@ -82,9 +98,15 @@ body {
   text-decoration: none;
   margin-bottom: 10px;
 }
-.menu a.active {
-  border: 1px solid #666;
+.menu.night a {
   color: #666;
+  border-color: #666;
+}
+.menu a.active {
+  /* border: 1px solid #666; */
+  background-color: #ff5e7d;
+  border: 1px solid #ff5e7d;
+  color: #fff;
 }
 .menu a.active:hover {
   webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
@@ -106,8 +128,12 @@ body {
   line-height: 20px;
 }
 .footer a {
-  color: #ccc;
+  color: #cccccc;
   text-decoration: none;
+}
+.footer.night,
+.footer.night a {
+  color: #666666;
 }
 .contactme {
   position: fixed;
@@ -160,6 +186,13 @@ body {
   border-width: 5px 5px 0;
   border-top-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
+}
+.contactme li .night {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+}
+.contactme li .night .tip-arrow {
+  border-top-color: rgba(255, 255, 255, 0.7);
 }
 .contactme a img {
   width: 100%;
