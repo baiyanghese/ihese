@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="format-detection"content="telephone=no, email=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="format-detection" content="telphone=no, email=no" />
     <meta name="renderer" content="webkit" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="HandheldFriendly" content="true" />
@@ -78,8 +78,9 @@
       </ul>
     </div>
     <div class="footer">
-      COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="">粤ICP备13030603号</a><br />THEME DESIGN BY Jack Fan 荷色小站旗下网站，盗版必究
+      <p>COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="">粤ICP备13030603号</a></p><p>THEME DESIGN BY Jack Fan 荷色小站旗下网站，盗版必究</p>
     </div>
+    <script type="text/javascript" src="http://cdn.bootcss.com/modernizr/2.8.3/modernizr.js"></script>
     <script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
     <script type="text/javascript" src="/wp-content/themes/freefire/js/home.js"></script>
   </body>

@@ -127,9 +127,22 @@ body.night {
   color: #ccc;
   line-height: 20px;
 }
+.footer p {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
 .footer a {
   color: #cccccc;
   text-decoration: none;
+}
+@media (max-width: 750px) {
+  .footer {
+    left: 50px;
+    right: 50px;
+  }
+  .footer p:first-child {
+    display: none;
+  }
 }
 .footer.night,
 .footer.night a {
