@@ -128,3 +128,11 @@ function Modeswitch() {
     }
 }
 Modeswitch();
+
+// 禁止页面滚动
+document.body.addEventListener('touchmove', function(event) {
+    if ( $("#blogbg").length > 0) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+},false);
