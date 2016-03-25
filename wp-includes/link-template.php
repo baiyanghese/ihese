@@ -2429,8 +2429,10 @@ function get_the_posts_navigation( $args = array() ) {
 	// Don't print empty markup if there's only one page.
 	if ( $GLOBALS['wp_query']->max_num_pages > 1 ) {
 		$args = wp_parse_args( $args, array(
-			'prev_text'          => __( 'Older posts' ),
-			'next_text'          => __( 'Newer posts' ),
+			// 'prev_text'          => __( 'Older posts' ),
+			// 'next_text'          => __( 'Newer posts' ),
+			'prev_text'          => __( '下一页' ),
+			'next_text'          => __( '上一页' ),
 			'screen_reader_text' => __( 'Posts navigation' ),
 		) );
 
@@ -2536,10 +2538,10 @@ function _navigation_markup( $links, $class = 'posts-navigation', $screen_reader
 
 	$template = '
 	<nav class="navigation %1$s" role="navigation">
-		<h2 class="screen-reader-text">%2$s</h2>
-		<div class="nav-links">%3$s</div>
+		<div class="nav-links clearfix">%3$s</div>
 	</nav>';
 
+	// <h2 class="screen-reader-text">%2$s</h2>
 	/**
 	 * Filter the navigation markup template.
 	 *

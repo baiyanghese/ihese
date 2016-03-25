@@ -1,28 +1,10 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Free_fire
- */
-
-?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'freefire' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'freefire' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'freefire' ), 'freefire', '<a href="http://www.ihese.com" rel="designer">Jack Fan</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
-<?php wp_footer(); ?>
-
+<footer>
+  <section class="footer">
+    <p>COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="">粤ICP备13030603号</a></p><p>BASE ON WORDPRESS，THEME DESIGN BY Jack Fan 荷色小站旗下网站</p>
+  </section>
+</footer>
+<script type="text/javascript" src="http://cdn.bootcss.com/modernizr/2.8.3/modernizr.js"></script>
+<script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
+<script type="text/javascript" src="/wp-content/themes/freefire/js/ihese.js"></script>
 </body>
 </html>

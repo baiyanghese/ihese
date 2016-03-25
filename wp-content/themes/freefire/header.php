@@ -1,50 +1,87 @@
-<?php
-/**
- * The header for our theme.
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Free_fire
- */
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
-<?php wp_head(); ?>
-</head>
-
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'freefire' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'freefire' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+    <head>
+        <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <meta name="format-detection"content="telephone=no, email=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="screen-orientation" content="portrait" />
+        <meta name="x5-orientation" content="portrait"/>
+        <meta name="full-screen" content="yes"/>
+        <meta name="x5-fullscreen" content="true"/>
+        <meta name="browsermode" content="application"/>
+        <meta name="x5-page-mode" content="app"/>
+        <meta name="msapplication-tap-highlight" content="no"/>
+        <title>
+        荷色小站&bull;为享受左脑艺术的乐趣而生
+        </title>
+        <link href="/favicon.ico" rel="bookmark" type="image/x-icon" />
+        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="JackFan,baiyanghese@gmail.com" />
+        <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
+        <link rel="stylesheet" href="/wp-content/themes/freefire/css/ihese.css" />
+    </head>
+    <body>
+    <heaher>
+        <section>
+            <h1 class="website-name">
+            <!-- <?php bloginfo( 'name' ); ?> -->
+            文
+            </h1>
+        </section>
+        <section>
+            <div class="contact-me">
+                <ul>
+                    <li>
+                        <a href="http://nav.ihese.com" class="atips" data-tips="首页">
+                            <img src="/wp-content/themes/freefire/images/shouye.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/baiyanghese" class="atips" data-tips="GitHub">
+                            <img src="/wp-content/themes/freefire/images/github.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="atips" data-tips="暂未公布">
+                            <img src="/wp-content/themes/freefire/images/weixin.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="atips" data-tips="暂未公布">
+                            <img src="/wp-content/themes/freefire/images/qq.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://weibo.com/fliyer" class="atips" data-tips="微博">
+                            <img src="/wp-content/themes/freefire/images/weibo.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/imJackFan" class="atips" data-tips="twitter">
+                            <img src="/wp-content/themes/freefire/images/twitter.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://facebook.com/imjackfan" class="atips" data-tips="facebook">
+                            <img src="/wp-content/themes/freefire/images/facebook.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="＃" class="atips" data-tips="留言">
+                            <img src="/wp-content/themes/freefire/images/liuyan.png" alt="" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </heaher>

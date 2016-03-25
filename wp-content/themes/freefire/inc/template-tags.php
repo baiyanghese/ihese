@@ -11,7 +11,7 @@ if ( ! function_exists( 'freefire_posted_on' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time and author.
  */
-function freefire_posted_on() {
+function freefire_posted_on($param) {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
 		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
@@ -29,12 +29,27 @@ function freefire_posted_on() {
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
-	$byline = sprintf(
-		esc_html_x( 'by %s', 'post author', 'freefire' ),
-		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
+	$new_posted_on = sprintf(
+		esc_html_x( '%s', 'post date', 'freefire' ),
+		$time_string
 	);
 
-	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+
+	// $byline = sprintf(
+	// 	esc_html_x( 'by %s', 'post author', 'freefire' ),
+	// 	'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
+	// );
+	$new_byline = sprintf(
+		esc_html_x( '%s', 'post author', 'freefire' ),
+		esc_html( get_the_author())
+	);
+
+	// echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+	if ($param == "detail") {
+		echo $new_posted_on." ".$new_byline;
+	} else {
+		echo $new_posted_on;
+	}
 
 }
 endif;
