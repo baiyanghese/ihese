@@ -50,7 +50,7 @@
             <img src="/wp-content/themes/freefire/images/github.png" alt="" />
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="javascript:;" class="atips" data-tips="暂未公布">
             <img src="/wp-content/themes/freefire/images/weixin.png" alt="" />
           </a>
@@ -59,7 +59,7 @@
           <a href="javascript:;" class="atips" data-tips="暂未公布">
             <img src="/wp-content/themes/freefire/images/qq.png" alt="" />
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="http://weibo.com/fliyer" class="atips" data-tips="微博">
             <img src="/wp-content/themes/freefire/images/weibo.png" alt="" />

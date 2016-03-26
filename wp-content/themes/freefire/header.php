@@ -43,12 +43,33 @@
                 <ul>
                     <li>
                         <a href="http://nav.ihese.com" class="atips" data-tips="首页">
-                            <img src="/wp-content/themes/freefire/images/shouye.png" alt="" />
+                            <img src="/wp-content/themes/freefire/images/home.png" alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="＃" class="atips" data-tips="留言">
-                            <img src="/wp-content/themes/freefire/images/liuyan.png" alt="" />
+                        <a href="/" class="atips" data-tips="文">
+                            <img src="/wp-content/themes/freefire/images/artice.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="atips" data-tips="留言">
+                            <img src="/wp-content/themes/freefire/images/feedbook.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/" class="atips" data-tips="关于">
+                            <img src="/wp-content/themes/freefire/images/about.png" alt="" />
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="/" class="atips" data-tips="点赞">
+                            <img src="/wp-content/themes/freefire/images/good.png" alt="" />
+                        </a>
+                    </li>
+                    -->
+                    <li>
+                        <a href="/" class="atips" data-tips="打赏">
+                            <img src="/wp-content/themes/freefire/images/reward.png" alt="" />
                         </a>
                     </li>
                 </ul>
