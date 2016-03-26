@@ -39,41 +39,11 @@
             </h1>
         </section>
         <section>
-            <div class="contact-me">
+            <div class="website-nav">
                 <ul>
                     <li>
                         <a href="http://nav.ihese.com" class="atips" data-tips="首页">
                             <img src="/wp-content/themes/freefire/images/shouye.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://github.com/baiyanghese" class="atips" data-tips="GitHub">
-                            <img src="/wp-content/themes/freefire/images/github.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:;" class="atips" data-tips="暂未公布">
-                            <img src="/wp-content/themes/freefire/images/weixin.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:;" class="atips" data-tips="暂未公布">
-                            <img src="/wp-content/themes/freefire/images/qq.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://weibo.com/fliyer" class="atips" data-tips="微博">
-                            <img src="/wp-content/themes/freefire/images/weibo.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://twitter.com/imJackFan" class="atips" data-tips="twitter">
-                            <img src="/wp-content/themes/freefire/images/twitter.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://facebook.com/imjackfan" class="atips" data-tips="facebook">
-                            <img src="/wp-content/themes/freefire/images/facebook.png" alt="" />
                         </a>
                     </li>
                     <li>

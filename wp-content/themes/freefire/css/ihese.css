@@ -60,14 +60,16 @@ a {
   color: #bbb;
   margin: 60px auto;
 }
-.contact-me {
+.contact-me,
+.website-nav {
   bottom: 100px;
   width: 100%;
   margin: 0px auto;
   z-index: 999;
   text-align: center;
 }
-.contact-me li {
+.contact-me li,
+.website-nav li {
   position: relative;
   display: inline-block;
   list-style: none;
@@ -75,13 +77,15 @@ a {
   height: 15px;
   margin: 0px 10px;
 }
-.contact-me li a {
+.contact-me li a,
+.website-nav li a {
   display: block;
   width: 15px;
   height: 15px;
   text-decoration: none;
 }
-.contact-me li .tip {
+.contact-me li .tip,
+.website-nav li .tip {
   position: absolute;
   top: -50px;
   left: -45px;
@@ -94,11 +98,13 @@ a {
   border-radius: 6px;
   color: #fff;
 }
-.contact-me li .tip-inner {
+.contact-me li .tip-inner,
+.website-nav li .tip-inner {
   font-style: normal;
   font-size: 12px;
 }
-.contact-me li .tip-arrow {
+.contact-me li .tip-arrow,
+.website-nav li .tip-arrow {
   position: absolute;
   width: 0;
   height: 0;
@@ -111,7 +117,8 @@ a {
   border-top-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
-.contact-me a img {
+.contact-me a img,
+.website-nav a img {
   width: 100%;
 }
 .footer {
@@ -119,7 +126,7 @@ a {
   font-size: 10px;
   color: #cccccc;
   line-height: 20px;
-  padding-bottom: 30px;
+  padding: 30px 0px;
 }
 .footer a {
   color: #cccccc;
