@@ -29,8 +29,13 @@
         /* translators: %s: Name of current post. */
         wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'freefire' ), array( 'span' => array( 'class' => array() ) ) ),
         the_title( '<span class="screen-reader-text">"', '"</span>', false )
-      ) );
-
+      ) );?>
+      <div class="read-num">
+      阅读数 &nbsp;<b><?php
+      phsy_set_post_views(get_the_ID());
+      echo phsy_get_post_views(get_the_ID());?></b>
+      </div>
+      <?php
       wp_link_pages( array(
         'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'freefire' ),
         'after'  => '</div>',

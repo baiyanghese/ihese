@@ -30,6 +30,10 @@ html,body {
     margin: 0;
     /* overflow: hidden; */
 }
+pre {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
 a {
   text-decoration: none;
 }
@@ -256,13 +260,14 @@ a {
   line-height: 24px;
 }
 .entry-content a {
-  color: #666;
+  color: #ff5e7d;
+  font-weight: 600;
 }
 .entry-content img {
   width: 100%;
 }
 .entry-content p {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 .single .nav-next a,
 .single .nav-previous a {
@@ -301,4 +306,14 @@ a {
 .artice-detail-title .return-index:hover {
   color: #ffffff;
   background: #ff5e7d;
+}
+.hljs {
+  padding: 1rem;
+  border-radius: 4px;
+}
+.read-num {
+  margin-top: 20px;
+}
+.read-num b {
+  color: #ff5e7d;
 }

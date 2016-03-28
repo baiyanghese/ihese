@@ -110,6 +110,33 @@ function freefire_widgets_init() {
 }
 add_action( 'widgets_init', 'freefire_widgets_init' );
 
+function phsy_set_post_views($postID) {
+	$count_key = 'post_views_count';
+	$count = get_post_meta($postID, $count_key, true);
+		if($count==''){
+			$count = 0;
+			delete_post_meta($postID, $count_key);
+			add_post_meta($postID, $count_key, '0');
+		}else{
+		//administrator的浏览量不统计
+		if(!current_user_can("administrator")){
+			$count++;
+			update_post_meta($postID, $count_key, $count);
+		}
+	}
+}
+
+function phsy_get_post_views($postID){
+	$count_key = 'post_views_count';
+	$count = get_post_meta($postID, $count_key, true);
+	if($count==''){
+		delete_post_meta($postID, $count_key);
+		add_post_meta($postID, $count_key, '0');
+		return "0";
+	}
+	return $count;
+}
+
 /**
  * Enqueue scripts and styles.
  */

@@ -19,7 +19,7 @@
         <meta name="x5-page-mode" content="app"/>
         <meta name="msapplication-tap-highlight" content="no"/>
         <title>
-        荷色小站&bull;为享受左脑艺术的乐趣而生
+        荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生
         </title>
         <link href="/favicon.ico" rel="bookmark" type="image/x-icon" />
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
@@ -28,7 +28,9 @@
         <meta name="description" content="" />
         <meta name="author" content="JackFan,baiyanghese@gmail.com" />
         <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
-        <link rel="stylesheet" href="/wp-content/themes/freefire/css/ihese.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+        <link rel="stylesheet" href="/wp-content/themes/freefire/css/ihese.css"
+        />
     </head>
     <body>
     <heaher>
@@ -67,11 +69,11 @@
                         </a>
                     </li>
                     -->
-                    <li>
+                    <!-- <li>
                         <a href="/" class="atips" data-tips="打赏">
                             <img src="/wp-content/themes/freefire/images/reward.png" alt="" />
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </section>

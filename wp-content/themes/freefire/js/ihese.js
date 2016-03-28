@@ -17,3 +17,6 @@ function Showtips() {
 }
 
 Showtips();
+
+// 代码高亮
+hljs.initHighlightingOnLoad();

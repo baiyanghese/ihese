@@ -21,5 +21,6 @@
    </div>
    <div class="artice-ctime">
     <?php freefire_posted_on("list"); ?>
+    <!-- <?php phsy_set_post_views(get_the_ID()); ?><?php echo phsy_get_post_views(get_the_ID()); ?> -->
    </div>
 </article>
