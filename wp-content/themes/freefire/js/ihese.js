@@ -16,7 +16,13 @@ function Showtips() {
     });
 }
 
-Showtips();
 
-// 代码高亮
-hljs.initHighlightingOnLoad();
+$(function(){
+    Showtips();
+
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
+
+    $("#loading").hide();
+    $(".header,main,.footer").show();
+});

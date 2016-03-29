@@ -33,7 +33,12 @@
         />
     </head>
     <body>
-    <heaher>
+    <div class="status" id="loading">
+      <div class="l-loading-panel">
+        <span class="l-loading"></span>
+      </div>
+    </div>
+    <heaher class="header">
         <section>
             <h1 class="website-name">
             <!-- <?php bloginfo( 'name' ); ?> -->

@@ -30,6 +30,9 @@ html,body {
     margin: 0;
     /* overflow: hidden; */
 }
+.header,main,.footer {
+  display: none;
+}
 pre {
   padding: 0px 0px;
   margin: 0px 0px;
@@ -56,6 +59,57 @@ a {
 }
 .js-ds-none {
   display: none;
+}
+.l-loading-panel {
+    max-width: 360px;
+    margin: 300px auto 0;
+    padding: 40px 0;
+}
+.l-loading {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #ff5e7d;
+    border-radius: 50%;
+    animation: loading-rond 2s infinite;
+    -webkit-animation: loading-rond 2s infinite;
+}
+.l-loading:after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    top: -2px;
+    left: 50%;
+    margin-left: -2px;
+    background: #ff5e7d;
+    border-radius: 100%;
+}
+/* .m-status {
+    height: 52px;
+}
+.l-loading-panel.hide {
+    opacity: 0;
+} */
+@keyframes loading-rond {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes loading-rond {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
 .website-name {
   font-size: 30px;
