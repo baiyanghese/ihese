@@ -30,7 +30,7 @@ html,body {
     margin: 0;
     /* overflow: hidden; */
 }
-.header,main,.footer {
+.header,main,footer {
   display: none;
 }
 pre {

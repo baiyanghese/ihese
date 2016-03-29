@@ -24,5 +24,5 @@ $(function(){
     hljs.initHighlightingOnLoad();
 
     $("#loading").hide();
-    $(".header,main,.footer").show();
+    $(".header,main,footer").show();
 });

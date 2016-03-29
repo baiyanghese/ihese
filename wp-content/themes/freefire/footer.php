@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer>
   <section>
     <div class="contact-me">
       <ul>
