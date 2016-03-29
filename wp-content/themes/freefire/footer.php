@@ -41,7 +41,7 @@
 </footer>
 <script type="text/javascript" src="http://cdn.bootcss.com/modernizr/2.8.3/modernizr.js"></script>
 <script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/freefire/js/highlight.js"></script>
 <script type="text/javascript" src="/wp-content/themes/freefire/js/ihese.js"></script>
 </body>
 </html>

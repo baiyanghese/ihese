@@ -28,7 +28,7 @@
         <meta name="description" content="" />
         <meta name="author" content="JackFan,baiyanghese@gmail.com" />
         <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+        <link rel="stylesheet" href="/wp-content/themes/freefire/css/hljs.css">
         <link rel="stylesheet" href="/wp-content/themes/freefire/css/ihese.css"
         />
     </head>
