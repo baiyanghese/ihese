@@ -19,13 +19,26 @@
         <meta name="x5-page-mode" content="app"/>
         <meta name="msapplication-tap-highlight" content="no"/>
         <title>
-        荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生
+        <?php if (is_home ()) {
+            echo "荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生";
+        } elseif (is_category()) {
+            single_cat_title();
+            echo "荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生";
+        } elseif (is_single()||is_page()) {
+            single_post_title();
+            echo " - 荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生";
+        } elseif (is_search()) {
+            echo "荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生。search results:";
+            echo wp_specialchars($s);
+        } else {
+            wp_title('',true);
+        }?>
         </title>
         <link href="/favicon.ico" rel="bookmark" type="image/x-icon" />
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
         <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta name="keywords" content="荷色小站、iHese.com、WEB开发笔记、前端开发、网站开发、软件设计、网页设计、移动端研发、APP设计与制作" />
+        <meta name="description" content="荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生--专注网站开发笔记，Web技术的学习与研究，关注设计、互联网，一个记录、分享互联网知识与生活的网站" />
         <meta name="author" content="JackFan,baiyanghese@gmail.com" />
         <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
         <link rel="stylesheet" href="/wp-content/themes/freefire/css/hljs.css">
