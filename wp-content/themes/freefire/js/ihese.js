@@ -16,13 +16,23 @@ function Showtips() {
     });
 }
 
+// 检测是否为移动设备
+function is_mobile_agent() {
+    return (/iphone|ipod|android.*mobile|windows.*phone|blackberry.*mobile/i.test(
+        window.navigator.userAgent.toLowerCase()
+    ));
+};
 
 $(function(){
-    Showtips();
-
     // 代码高亮
     hljs.initHighlightingOnLoad();
 
     $("#loading").hide();
-    $(".header,main,footer").show();
+
+    if (!is_mobile_agent()) {
+        Showtips();
+        $(".header,main,footer").show();
+    } else {
+        $("main,footer").show();
+    }
 });
