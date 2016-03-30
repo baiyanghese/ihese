@@ -23,8 +23,8 @@
     <link href="/favicon.ico" rel="bookmark" type="image/x-icon" />
     <link href="/favicon.ico" rel="icon" type="image/x-icon" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="keywords" content="荷色小站、iHese.com、WEB开发笔记、前端开发、网站开发、软件设计、网页设计、移动端研发、APP设计与制作" />
+    <meta name="description" content="荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生--专注网站开发笔记，Web技术的学习与研究，关注设计、互联网，一个记录、分享互联网知识与生活的网站" />
     <meta name="author" content="JackFan,baiyanghese@gmail.com" />
     <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
     <link rel="stylesheet" href="/wp-content/themes/freefire/css/home.css" />
@@ -78,7 +78,7 @@
       </ul>
     </div>
     <div class="footer">
-      <p>COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="">粤ICP备13030603号</a></p><p>THEME DESIGN BY Jack Fan 荷色小站旗下站点</p>
+      <p>COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备13030603号</a></p><p>THEME DESIGN BY Jack Fan 荷色小站旗下站点</p>
     </div>
     <script type="text/javascript" src="http://cdn.bootcss.com/modernizr/2.8.3/modernizr.js"></script>
     <script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
