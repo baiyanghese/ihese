@@ -417,8 +417,9 @@ a {
     height: auto;
     line-height: 2.333333rem;
   }
-  .artice-detail-time {
-    font-size: 0.833333rem;
+  .artice-detail-time,
+  time {
+    font-size: 1.2rem;
   }
   .read-num {
     color: #bbbbbb;
@@ -429,13 +430,13 @@ a {
     height: 3.333333rem;
   }
   .nav-next a, .nav-previous a {
-    width: 6.25rem;
-    height: 3.333333rem;
-    line-height: 3.333333rem;
+    width: 4.166667rem;
+    height: 2.916667rem;
+    line-height: 2.916667rem;
   }
   .footer {
     width: auto;
-    padding: 1.666667rem 1.666667rem;
+    padding: 1.666667rem 2.5rem;
     font-size: 0.5rem;
   }
   .footer p:first-child {
