@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-orientation" content="portrait"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="browsermode" content="application"/>
+    <meta name="x5-page-mode" content="app"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <title>
+    荷色小站&bull;为享受左脑艺术的乐趣而生
+    </title>
+    <link href="/favicon.ico" rel="bookmark" type="image/x-icon" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="keywords" content="荷色小站、iHese.com、WEB开发笔记、前端开发、网站开发、软件设计、网页设计、移动端研发、APP设计与制作" />
+    <meta name="description" content="荷色小站(iHese.com)&bull;为享受左脑艺术的乐趣而生--专注网站开发笔记，Web技术的学习与研究，关注设计、互联网，一个记录、分享互联网知识与生活的网站" />
+    <meta name="author" content="JackFan,baiyanghese@gmail.com" />
+    <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
+    <link rel="stylesheet" href="/wp-content/themes/freefire/css/home.css" />
+  </head>
+  <body>
+    <div style="width: 320px;margin:280px auto;font-size:12px; height: auto; line-height: 20px;">
+        <p>宝宝表示很抱歉，您所访问得页面未能找到 囧rz～</p>
+        <p>亲，请不要关闭宝宝，宝宝正在努力的请求其他页面 Orz～</p>
+        <p><b id="paytime">5</b>秒后返回荷色小站首页，或者<a href="http://www.ihese.com/">马上返回首页</a>。</p>
+    </div>
+    <script type="text/javascript" src="http://cdn.bootcss.com/modernizr/2.8.3/modernizr.js"></script>
+    <script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
+    <script type="text/javascript">
+        var i = 6;
+        setInterval(function(){
+            var url = 'http://www.ihese.com';
+            if (i>0){
+              i--;
+            }else{
+              window.location.href=url;
+            }
+            $("#paytime").text(i);
+        },1000);
+    </script>
+  </body>
+  </html>
