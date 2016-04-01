@@ -62,7 +62,7 @@
             <div class="website-nav">
                 <ul>
                     <li>
-                        <a href="http://nav.ihese.com" class="atips" data-tips="首页">
+                        <a href="http://www.ihese.com" class="atips" data-tips="首页">
                             <img src="/wp-content/themes/freefire/images/home.png" alt="" />
                         </a>
                     </li>
