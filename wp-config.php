@@ -26,7 +26,7 @@ define('DB_NAME', 'ihese');
 define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '123456');
 
 /** MySQL主机 */
 define('DB_HOST', '127.0.0.1');
