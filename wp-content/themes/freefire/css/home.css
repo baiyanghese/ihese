@@ -28,6 +28,9 @@ body.night {
 .blognav.night {
   background: transparent;
 }
+.js-ds-none {
+  display: none;
+}
 .arriveup,
 .arriveup-long {
   -webkit-transform: translate3d(0, 500px, 0);
@@ -84,7 +87,7 @@ body.night {
 .menu {
   width: 82px;
   height: auto;
-  margin: 50px auto;
+  margin: 10px auto;
 }
 .menu a {
   display: block;
@@ -290,5 +293,30 @@ body.night {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
 }
-
-
+.weixinercode {
+  width: 16.666667rem;
+  height: 18.333333rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -8.333333rem;
+  margin-top: -9.166667rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.583333rem;
+  z-index: 9990;
+}
+.weixinercode .img {
+  padding: 3.333333rem 3.333333rem 1.25rem 3.333333rem ;
+  height: 10.0rem;
+  width: 10.0rem;
+}
+.weixinercode h1 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+.weixinercode img {
+  width: 100%;
+}

@@ -50,12 +50,12 @@
             <img src="/wp-content/themes/freefire/images/github.png" alt="" />
           </a>
         </li>
-        <!-- <li>
-          <a href="javascript:;" class="atips" data-tips="暂未公布">
+        <li>
+          <a href="javascript:;" class="atips" id="weixincode" data-tips="微信公众号">
             <img src="/wp-content/themes/freefire/images/weixin.png" alt="" />
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="javascript:;" class="atips" data-tips="暂未公布">
             <img src="/wp-content/themes/freefire/images/qq.png" alt="" />
           </a>
@@ -76,6 +76,12 @@
           </a>
         </li>
       </ul>
+    </div>
+    <div class="weixinercode js-ds-none">
+      <div class="img">
+        <img src="/wp-content/themes/freefire/images/ercode.jpg" alt="" />
+      </div>
+      <h1>请用微信扫一扫</h1>
     </div>
     <div class="footer">
       <p>COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备13030603号</a></p><p>THEME DESIGN BY Jack Fan 荷色小站旗下站点</p>

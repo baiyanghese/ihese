@@ -129,6 +129,17 @@ function Modeswitch() {
 }
 Modeswitch();
 
+// 显示微信公众号二维码
+function ShowWeixinCode() {
+    $("#weixincode").click(function(event) {
+        $(".weixinercode").removeClass('js-ds-none').addClass('arriveup');
+    });
+    $("canvas").click(function(event) {
+        $(".weixinercode").addClass('js-ds-none').removeClass('arriveup');
+    });
+}
+ShowWeixinCode();
+
 // 禁止页面滚动
 document.body.addEventListener('touchmove', function(event) {
     if ( $("#blogbg").length > 0) {
