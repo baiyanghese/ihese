@@ -34,7 +34,7 @@
     你的浏览器不支持哦～
     </canvas>
     <div class="blognav arriveup">
-      <a href="/" class="logo"></a>
+      <a href="javascript:;" class="logo"></a>
       <h2>为享受左脑艺术的乐趣而生</h2>
       <div class="menu">
         <a href="http://b.ihese.com" class="active">文章</a>
