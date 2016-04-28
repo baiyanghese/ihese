@@ -443,3 +443,13 @@ a {
     display: none;
   }
 }
+.article-code {
+  width: 8.333333rem;
+  height: 8.333333rem;
+  margin: 0.416667rem auto;
+  text-align: center;
+  color: #cccccc;
+}
+.article-code img {
+  width: 100%;
+}

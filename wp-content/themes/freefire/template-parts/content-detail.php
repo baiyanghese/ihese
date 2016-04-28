@@ -35,6 +35,11 @@
       phsy_set_post_views(get_the_ID());
       echo phsy_get_post_views(get_the_ID());?></b>
       </div>
+      <?php $url = 'http://'.$_SERVER['HTTP_HOST'].'?'.$_SERVER['QUERY_STRING'] ?>
+      <div class="article-code">
+        <img src="http://qr.topscan.com/api.php?bg=ffffff&fg=575757&el=l&w=200&m=10&text=<?php echo $url ?>"/>
+        请使用微信扫描阅读
+      </div>
       <?php
       wp_link_pages( array(
         'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'freefire' ),
