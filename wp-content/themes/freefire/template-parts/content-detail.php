@@ -19,6 +19,7 @@
     <a href="/" class="return-index">返回首页</a>
     <a href="javascript:;" class="weixin-code">使用微信阅读</a>
     <div class="wx-code-plane animated js-ds-none">
+      <?php $url = 'http://'.$_SERVER['HTTP_HOST'].'?'.$_SERVER['QUERY_STRING'] ?>
       <img src="http://qr.topscan.com/api.php?bg=ffffff&fg=575757&el=l&w=200&m=10&text=<?php echo $url ?>"/>
       请用微信扫一扫
     </div>
@@ -38,7 +39,6 @@
       phsy_set_post_views(get_the_ID());
       echo phsy_get_post_views(get_the_ID());?></b>
       </div>
-      <?php $url = 'http://'.$_SERVER['HTTP_HOST'].'?'.$_SERVER['QUERY_STRING'] ?>
       <div class="article-code">
         <!-- <img src="http://qr.topscan.com/api.php?bg=ffffff&fg=575757&el=l&w=200&m=10&text=<?php echo $url ?>"/> -->
         <img src="http://b.ihese.com/ercode.jpg" alt="感谢您的支持" />
