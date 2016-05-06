@@ -23,9 +23,18 @@ function is_mobile_agent() {
     ));
 };
 
+function show_wx_code() {
+    $(".weixin-code").mouseenter(function(event){
+        $(".wx-code-plane").removeClass('js-ds-none').addClass('fadeInRight');
+    }).mouseleave(function(event) {
+        $(".wx-code-plane").removeClass('fadeInRight').addClass('js-ds-none');
+    });
+}
+
 $(function(){
     // 代码高亮
     hljs.initHighlightingOnLoad();
+    show_wx_code();
 
     $("#loading").hide();
 

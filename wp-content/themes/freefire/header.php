@@ -42,6 +42,7 @@
         <meta name="author" content="JackFan,baiyanghese@gmail.com" />
         <script type="text/javascript" src="/wp-content/themes/freefire/js/flexible.js"></script>
         <link rel="stylesheet" href="/wp-content/themes/freefire/css/hljs.css">
+        <link rel="stylesheet" href="/wp-content/themes/freefire/css/animate.css">
         <link rel="stylesheet" href="/wp-content/themes/freefire/css/ihese.css"
         />
     </head>

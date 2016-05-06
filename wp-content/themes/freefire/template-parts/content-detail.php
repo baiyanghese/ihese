@@ -6,9 +6,7 @@
  *
  * @package Free_fire
  */
-
 ?>
-
 <article id="post-<?php the_ID(); ?>"  class="clearfix">
   <div class="artice-detail-title">
     <?php
@@ -19,6 +17,11 @@
         }
     ?>
     <a href="/" class="return-index">返回首页</a>
+    <a href="javascript:;" class="weixin-code">使用微信阅读</a>
+    <div class="wx-code-plane animated js-ds-none">
+      <img src="http://qr.topscan.com/api.php?bg=ffffff&fg=575757&el=l&w=200&m=10&text=<?php echo $url ?>"/>
+      请用微信扫一扫
+    </div>
   </div>
   <div class="artice-detail-time">
     <?php freefire_posted_on("detail"); ?>
