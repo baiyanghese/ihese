@@ -26,6 +26,14 @@ get_header(); ?>
 		endwhile; // End of the loop.
 		?>
 
+		<div class="baidu-content">
+			<script type="text/javascript">
+	    	/*20:5 创建于 2016-05-10*/
+	    	var cpro_id = "u2634649";
+			</script>
+			<script src="http://cpro.baidustatic.com/cpro/ui/cm.js" type="text/javascript"></script>
+		</div>
+
 	</section>
 </main>
 

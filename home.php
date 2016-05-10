@@ -90,11 +90,18 @@
     <script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
     <script type="text/javascript" src="/wp-content/themes/freefire/js/home.js"></script>
     <div style="display:none">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?17c455e0c2990c952d7528f05a90a898";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
     <script type="text/javascript" src="http://tajs.qq.com/stats?sId=18891412" charset="UTF-8"></script>
     <script type="text/javascript" src="http://js.tongji.linezing.com/3284132/tongji.js"></script>
     <noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/3284132/tongji.gif"/></a></noscript>
-    <script language="javascript" type="text/javascript" src="http://js.users.51.la/17027829.js"></script>
-    <noscript><a href="http://www.51.la/?17027829" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/17027829.asp" style="border:none" /></a></noscript>
     </div>
   </body>
 </html>
