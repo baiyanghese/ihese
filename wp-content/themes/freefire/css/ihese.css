@@ -393,7 +393,7 @@ a {
 .baidu-content {
   display: none;
 }
-@media (max-width: 750px) {
+@media (max-width: 950px) {
   .website-nav li,
   .website-nav li a,
   .contact-me li,
@@ -468,6 +468,7 @@ a {
   .baidu-content {
     display: block;
     margin-top: 1.25rem;
+    overflow: hidden;
   }
   .baidu-content div,
   .baidu-content iframe {
