@@ -471,7 +471,7 @@ a {
   }
   .baidu-content div,
   .baidu-content iframe {
-    width: 100%;
+    width: 100%!important;
   }
 }
 .article-code {
