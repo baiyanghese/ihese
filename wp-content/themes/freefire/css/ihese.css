@@ -390,6 +390,9 @@ a {
 .read-num b {
   color: #ff5e7d;
 }
+.baidu-content {
+  display: none;
+}
 @media (max-width: 750px) {
   .website-nav li,
   .website-nav li a,
@@ -461,6 +464,14 @@ a {
   }
   .footer p:first-child {
     display: none;
+  }
+  .baidu-content {
+    display: block;
+    margin-top: 1.25rem;
+  }
+  .baidu-content div,
+  .baidu-content iframe {
+    width: 100%;
   }
 }
 .article-code {
