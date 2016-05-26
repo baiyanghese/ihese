@@ -27,6 +27,11 @@
   <div class="artice-detail-time">
     <?php freefire_posted_on("detail"); ?>
   </div>
+  <div class="aliyun-banner">
+    <a href="http://s.click.taobao.com/t?e=m%3D2%26s%3DfOW5uMdR2wkcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAk1DMqk6QOVvYQlBwUQC%2FHtbJxZ0u5dqUSs%2FzRfcQux8e4XMyf7nZEvfcSBDyKv46Odn1BbglxZYxUhy8exlzcpAFEHVckI7b3VyxRO0gvF4QxJtmCgOmCLZ%2FNxlvga2vCGHCdjJcucekOhRYlOUmx1Fm6NGcinC4sYl7w3%2FA2kb" target="_blank">
+      <img src="/wp-content/themes/freefire/images/aliyun.jpg">
+    </a>
+  </div>
   <div class="entry-content">
     <?php
       the_content( sprintf(

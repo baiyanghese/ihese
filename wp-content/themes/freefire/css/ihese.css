@@ -493,3 +493,36 @@ a {
 .article-code img {
   width: 100%;
 }
+.aliyun-banner {
+  margin: 10px 0px;
+}
+.aliyun-banner img {
+  width: 100%;
+}
+.search_div {
+  max-width: 720px;
+  margin: 100px auto 50px;
+  height: 150px;
+}
+.search_text {
+  float: left;
+  border: 2px solid #FF4300;
+  height: 40px;
+  width: 70%;
+  padding-left: 5px;
+  outline: 0 none;
+}
+.search_sub {
+  float: left;
+  height: 44px;
+  width: 25%;
+  background-color: #FF4300;
+  border: 0;
+  color: #FFF;
+  font-size: 16px;
+  margin-left: -5px;
+  text-align: center;
+  line-height: 44px;
+  outline: 0 none;
+}
+

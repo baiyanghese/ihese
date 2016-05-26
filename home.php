@@ -38,7 +38,7 @@
       <h2>为享受左脑艺术的乐趣而生</h2>
       <div class="menu">
         <a href="http://b.ihese.com" class="active">文章</a>
-        <a href="#">工具</a>
+        <a href="http://www.ihese.com/buy.html" class="active">返利</a>
         <a href="#">导航</a>
         <a href="#">社区</a>
       </div>
