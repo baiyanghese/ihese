@@ -39,7 +39,7 @@
       <div class="menu">
         <a href="http://b.ihese.com" class="active">文章</a>
         <a href="http://fanli.ihese.com/" class="active">返利</a>
-        <a href="#">导航</a>
+        <a href="http://wx.ihese.com" class="active">精选</a>
         <a href="#">社区</a>
       </div>
     </div>
