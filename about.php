@@ -55,7 +55,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/" class="atips" data-tips="文">
+                        <a href="http://b.ihese.com" class="atips" data-tips="文">
                             <img src="/wp-content/themes/freefire/images/artice.png" alt="" />
                         </a>
                     </li>
@@ -85,7 +85,8 @@
     </heaher>
 
 <main class="min-container single">
-    <section>
+    <section class="about-header">
+        <a href="/" class="abouttohome">返回首页</a>
         <div class="aboutme-avatar">
             <img src="/wp-content/themes/freefire/images/jackfan.jpg" alt="JackFan" />
         </div>

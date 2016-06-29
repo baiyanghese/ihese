@@ -542,7 +542,12 @@ a {
   font-weight: 600;
   color: #f00;
 }
-
+.about-header {
+  position:relative;
+}
+.abouttohome {
+  display: none;
+}
 @media (max-width: 950px) {
   .website-nav li,
   .website-nav li a,
@@ -631,5 +636,19 @@ a {
     font-size: 1.0rem;
     width: 100%;
     line-height: 1.666667rem;
+  }
+  .abouttohome {
+    position: absolute;
+    display: block;
+    right: 0.233333rem;
+    top: 0.233333rem;
+    width: 5.166667rem;
+    height: 2.216667rem;
+    line-height: 2.216667rem;
+    font-size: 1.0rem;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3cc51f;
   }
 }
