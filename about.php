@@ -86,7 +86,7 @@
 
 <main class="min-container single">
     <section class="about-header">
-        <a href="/" class="abouttohome">返回首页</a>
+        <a href="http://www.ihese.com" class="abouttohome">返回首页</a>
         <div class="aboutme-avatar">
             <img src="/wp-content/themes/freefire/images/jackfan.jpg" alt="JackFan" />
         </div>
