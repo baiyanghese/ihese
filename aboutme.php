@@ -64,11 +64,11 @@
                             <img src="/wp-content/themes/freefire/images/feedbook.png" alt="" />
                         </a>
                     </li>-->
-                    <li>
+                    <!-- <li>
                         <a href="/" class="atips" data-tips="域名列表">
                             <img src="/wp-content/themes/freefire/images/reward.png" alt="" />
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/aboutme.php" class="atips" data-tips="关于">
                             <img src="/wp-content/themes/freefire/images/about.png" alt="" />
