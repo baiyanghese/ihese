@@ -83,7 +83,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/" class="atips" data-tips="关于">
+                        <a href="/aboutme.php" class="atips" data-tips="关于">
                             <img src="/wp-content/themes/freefire/images/about.png" alt="" />
                         </a>
                     </li>
