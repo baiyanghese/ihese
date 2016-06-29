@@ -84,7 +84,7 @@
       <h1>请用微信扫一扫</h1>
     </div>
     <div class="footer">
-      <p>COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备13030603号</a></p><p>THEME DESIGN BY Jack Fan 荷色小站旗下站点</p>
+      <p>COPYRIGHT © 2016 IHESE.COM. ALL RIGHTS RESERVED.网站备案号：<a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备13030603号</a></p><p>THEME DESIGN BY <a href="http://b.ihese.com/about.php">Jack Fan</a> 荷色小站旗下站点</p>
     </div>
     <script type="text/javascript" src="http://cdn.bootcss.com/modernizr/2.8.3/modernizr.js"></script>
     <script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
