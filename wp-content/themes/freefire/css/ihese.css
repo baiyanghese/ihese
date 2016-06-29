@@ -525,4 +525,101 @@ a {
   line-height: 44px;
   outline: 0 none;
 }
+.tips-container {
 
+}
+.tips-container .dottod-line {
+  width: 80%;
+  height: 40px;
+  position: relative;
+  border-bottom: 1px dashed #ccc;
+  margin: 0px auto;
+}
+.tips-container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 12px;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-left: -100px;
+  background-color: #fff;
+  color: #666;
+}
+.tips-content {
+  margin: 50px auto;
+  width: 600px;
+  height: auto;
+}
+.tips-content img {
+  width: 100%;
+}
+.tips-content h3 {
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.tips-content .show-img {
+  width: 100%;
+  margin: 40px 0px;
+}
+.tips-content .show-info {
+  font-size: 12px;
+  color: #FF4300;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.submit-order-info {
+  width: 575px;
+  margin: 0px auto;
+}
+.submit-order-info input {
+  display: inline-block;
+  width: 160px;
+  height: 20px;
+  padding: 10px 10px;
+  line-height: 20px;
+  margin-right: 20px;
+  border: 1px solid #3cc51f;
+}
+.submit-order-info a {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  background-color: #3cc51f;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+}
+.submit-order-info input:focus {
+  outline: 0 none;
+}
+.aboutme-avatar {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin: 1.25rem auto;
+}
+.aboutme-avatar img {
+  width: 100%;
+  border-radius: 999px;
+}
+.aboutme-title {
+  font-size: 0.833333rem;
+  line-height: 2.083333rem;
+  text-align: center;
+}
+.aboutme-content {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  width: 700px;
+  margin: 1.25rem auto;
+  /* text-indent: 2em; */
+}
+.aboutme-content a {
+  font-weight: 600;
+  color: #f00;
+}
