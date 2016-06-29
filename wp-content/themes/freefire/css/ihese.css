@@ -624,7 +624,11 @@ a {
   .baidu-content iframe {
     width: 100%!important;
   }
+  .aboutme-title {
+    font-size: 1.25rem;
+  }
   .aboutme-content {
+    font-size: 1.0rem;
     width: 100%;
     line-height: 1.666667rem;
   }
