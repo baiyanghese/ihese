@@ -43,7 +43,7 @@
     <heaher class="header">
         <section>
             <h1 class="website-name">
-            关于我
+            关于
             </h1>
         </section>
         <section>
@@ -70,7 +70,7 @@
                         </a>
                     </li> -->
                     <li>
-                        <a href="/aboutme.php" class="atips" data-tips="关于">
+                        <a href="/about.php" class="atips" data-tips="关于">
                             <img src="/wp-content/themes/freefire/images/about.png" alt="" />
                         </a>
                     </li>

@@ -4,7 +4,7 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-        <meta name="format-detection"content="telephone=no, email=no" />
+        <meta name="format-detection" content="telephone=no, email=no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="renderer" content="webkit" />
@@ -83,7 +83,7 @@
                         </a>
                     </li> -->
                     <li>
-                        <a href="/aboutme.php" class="atips" data-tips="关于">
+                        <a href="/about.php" class="atips" data-tips="关于">
                             <img src="/wp-content/themes/freefire/images/about.png" alt="" />
                         </a>
                     </li>
