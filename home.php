@@ -39,8 +39,8 @@
       <div class="menu">
         <a href="http://b.ihese.com" class="active">文章</a>
         <a href="http://fanli.ihese.com/" class="active">返利</a>
-        <a href="http://wx.ihese.com" class="active">精选</a>
-        <a href="http://game.ihese.com/2048.html" class="active">小游戏</a>
+        <a href="http://wx.ihese.com" class="active mobile-show">精选</a>
+        <a href="http://game.ihese.com/2048.html" class="active mobile-show">小游戏</a>
       </div>
     </div>
     <div class="contactme arriveup-long">

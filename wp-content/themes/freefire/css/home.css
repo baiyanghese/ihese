@@ -138,6 +138,9 @@ body.night {
   color: #cccccc;
   text-decoration: none;
 }
+.menu a.mobile-show {
+  display: none;
+}
 @media (max-width: 750px) {
   .footer {
     left: 50px;
@@ -145,6 +148,9 @@ body.night {
   }
   .footer p:first-child {
     display: none;
+  }
+  .menu a.mobile-show {
+    display: block;
   }
 }
 .footer.night,
