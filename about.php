@@ -98,7 +98,7 @@
 
 关注生活，信仰互联网，渴望能改变世界。<br /><br />
 
-闲暇时光喜欢折腾小程序，便有了荷色小站，小站目前开放三大板块（<a href="http://b.ihese.com">文章</a>、<a href="http://fanli.ihese.com">返利</a>、<a href="http://wx.ihese.com">精选</a>）。<br /><br />
+闲暇时光喜欢折腾小程序，便有了荷色小站，小站目前开放四大板块（<a href="http://b.ihese.com">文章</a>、<a href="http://fanli.ihese.com">返利</a>、<a href="http://wx.ihese.com">精选</a>、<a href="http://game.ihese.com">小游戏</a>）。<br /><br />
 
 <a href="http://b.ihese.com">文章</a>，只为能坚持记录生活与工作的点滴。<br /><br />
 
@@ -107,6 +107,8 @@
 <a href="http://fanli.ihese.com">返利</a>，只为帮助一些人购物省钱，节省是一种美德，杜绝浪费。<br /><br />
 
 <a href="http://wx.ihese.com">精选</a>，只为帮助阅读微信公众号文章时提升体验，无需关注过多公众号便可阅读好文章，奇文共欣赏，疑义相如析。<br /><br />
+
+<a href="">小游戏</a>，一些经典小游戏。<br /><br />
 
 关于网名，曾用马甲无数，白洋荷色居首，白洋次之。也正因如此才有了域名（IHESE.COM）。社会在进步，咱不能拖后腿，为了与国际接轨，为了适应今天的环境。从今往后，便有了洋名：JackFan。<br /><br />
 
@@ -118,14 +120,14 @@
         </p>
     </section>
         <!--高速版-->
-<div id="SOHUCS"></div>
+<!-- <div id="SOHUCS"></div>
 <script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
 <script type="text/javascript">
     window.changyan.api.config({
         appid: 'cyst8CjAG',
         conf: 'prod_9322ddac6f9045543393d4bc3dab82b1'
     });
-</script>
+</script> -->
 </main>
 <footer>
   <section>
