@@ -43,17 +43,6 @@
 <script type="text/javascript" src="/wp-content/themes/freefire/js/jquery.js"></script>
 <script type="text/javascript" src="/wp-content/themes/freefire/js/highlight.js"></script>
 <script type="text/javascript" src="/wp-content/themes/freefire/js/ihese.js"></script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:inline-block;width:750px;height:100px"
-     data-ad-client="ca-pub-9106541546933657"
-     data-ad-slot="8633265329"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({
-  google_ad_client: "ca-pub-9106541546933657",
-  enable_page_level_ads: true
-});
-</script>
 <div style="display:none">
 <script>
 var _hmt = _hmt || [];
