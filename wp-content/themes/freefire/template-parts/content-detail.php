@@ -44,13 +44,13 @@
       phsy_set_post_views(get_the_ID());
       echo phsy_get_post_views(get_the_ID());?></b>
       </div>
-      <div class="article-code">
+      <!-- <div class="article-code"> -->
         <!-- <img src="http://qr.topscan.com/api.php?bg=ffffff&fg=575757&el=l&w=200&m=10&text=<?php echo $url ?>"/> -->
-        <img src="http://b.ihese.com/ercode.jpg" alt="感谢您的支持" />
-      </div>
-      <div class="article-code-info">
+        <!-- <img src="http://b.ihese.com/ercode.jpg" alt="感谢您的支持" /> -->
+      <!-- </div> -->
+      <!-- <div class="article-code-info">
         如果您觉得本文对您有所帮助，请使用微信扫描赞赏。
-      </div>
+      </div> -->
       <?php
       wp_link_pages( array(
         'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'freefire' ),
